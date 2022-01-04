@@ -11,6 +11,9 @@ h2{
 h1 span{
     color: orangered;
 }
+h3{
+    color: orangered;
+}
 section{
     display: flex;
     margin-bottom: 100px;
@@ -30,6 +33,9 @@ section{
     font-weight: 400;
     color: white;
 }
+p{
+    color: dimgray;
+}
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -38,9 +44,9 @@ section{
     background-image: url(images/dream-bg.png.png);
     background-repeat: no-repeat;
     background-position:right;
+    margin-left: 50px;
 }
 #experience{
-    display:flexbox;
     padding-top: 5%;
 }
 .experiance-area{
@@ -59,11 +65,13 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg,lightsalmon,tomato);
     border-image-slice: 1;
+    margin-bottom: 2%;
 }
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
+    margin-bottom: 2%;
 }
 footer{
     text-align: center;
